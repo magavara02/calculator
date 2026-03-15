@@ -276,12 +276,12 @@
 
                 statusBadge.style.display = 'inline-block';
 
-                if (result < 5.5) {
+                if (result < 6.0) {
                     scoreDisplay.style.color = "#ef4444"; // Red
                     statusBadge.textContent = "Fail";
                     statusBadge.style.color = "#ef4444";
                     statusBadge.style.background = "rgba(239, 68, 68, 0.1)";
-                } else if (result >= 5.5 && result <= 10) {
+                } else if (result >= 6.0 && result <= 10) {
                     scoreDisplay.style.color = "var(--accent-primary)";
                     statusBadge.textContent = "Pass";
                     statusBadge.style.color = "var(--accent-primary)";
